@@ -1,11 +1,15 @@
-import { FaGoogle, FaLinkedinIn, FaPinterestP, FaSearch, FaTwitter, FaUser } from "react-icons/fa"
+import menuConfigs from "../../configs/menu.config";
+import { FaGoogle, FaLinkedinIn, FaPinterestP, FaSearch, FaTwitter, FaUser } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
     return (
         <>
             <div className="navbar bg-base-100 shadow-sm hidden lg:flex text-sm">
                 <div className="navbar-start">
-                    <a className="px-3 border-r-2" href="tel:1234567890">1234567890</a>
+                    <a className="px-3" href="tel:1234567890">1234567890</a>
+                    <vr class="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
                     <a className="px-3" href="mailto:demo@gmail.com">demo@gmail.com</a>
                 </div>
                 <div className="navbar-end">
@@ -13,9 +17,8 @@ const Navbar = () => {
                         <li><a><FaTwitter /></a></li>
                         <li><a><FaLinkedinIn /></a></li>
                         <li><a><FaGoogle /></a></li>
-                        <div className="border-r-2 me-2 pe-2">
-                            <li><a><FaPinterestP /></a></li>
-                        </div>
+                        <li><a><FaPinterestP /></a></li>
+                        <vr class="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
                         <li className="">
                             <details>
                                 <summary>IND</summary>
@@ -41,26 +44,22 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Tours</a></li>
-                            <li><a>destination</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Contact</a></li>
+                            {menuConfigs.menus.map((menus, index) => (
+                                <li key={index}>
+                                    <NavLink to={menus.path}>{menus.name}</NavLink>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">daisyUI</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Tours</a></li>
-                        <li><a>destination</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Contact</a></li>
+                        {menuConfigs.menus.map((menus, index) => (
+                            <li key={index}>
+                                <NavLink to={menus.path}>{menus.name}</NavLink>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <div className="ml-auto">
