@@ -6,7 +6,7 @@ import { LuSend } from 'react-icons/lu';
 const Footer = () => {
     return (
         <>
-            <footer className="footer min-[425px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-none md:footer-horizontal bg-[#111111] text-base-content p-10">
+            <footer className="footer min-[425px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-none md:footer-horizontal bg-[#111111] text-white p-10">
                 <aside>
                     <div className='flex gap-2 items-center mb-5'>
                         <img src={Logo} alt="" />
