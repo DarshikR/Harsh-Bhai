@@ -13,7 +13,7 @@ const Footer = () => {
                         <h3 className='text-xl'>Dira Service</h3>
                     </div>
                     <p>Need any help?</p>
-                    <h5 className='mb-2 leading-snug'><b>Call Us: (888)1234 5678</b></h5>
+                    <h5 className='mb-2 leading-snug'><b>Call Us: <span className='text-[#f8d448]'>(888)1234 5678</span></b></h5>
                     <p>Love Street, muscat, oman</p>
                     <a className='leading-snug' href="mailto:demo@gmail.com">demo@gmail.com</a>
                     <div className="grid grid-flow-col gap-4 text-xl mt-5">
@@ -61,10 +61,10 @@ const Footer = () => {
                                 <input
                                     type="text"
                                     placeholder="Enter email..."
-                                    className="input input-bordered join-item pl-8 sm:w-38 sm:rounded-lg" />
-                                <LuSend className='absolute top-3.5 left-3 pointer-events-none text-gray-400' />
+                                    className="input input-bordered join-item pl-8 sm:w-45 sm:rounded-lg bg-[#1d232a]" />
+                                <LuSend className='absolute top-3.5 left-3 pointer-events-none text-[#8e9195]' />
                             </div>
-                            <button className="btn bg-[#f8d448] join-item w-fit sm:mt-2 sm:rounded-lg">Submit</button>
+                            <button className="btn bg-[#f8d448] join-item w-fit sm:mt-2 sm:rounded-lg px-6">Submit</button>
                         </div>
                         <p className='mt-10'>© {new Date().getFullYear()} DiraServices All right reserved</p>
                     </fieldset>
