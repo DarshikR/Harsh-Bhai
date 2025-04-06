@@ -1,6 +1,7 @@
 import menuConfigs from "../../configs/menu.config";
 import { FaGoogle, FaLinkedinIn, FaPinterestP, FaSearch, FaTwitter, FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import Logo from "../../../public/logo.svg";
 
 const Navbar = () => {
 
@@ -51,7 +52,10 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">
+                        <img className="h-8" src={Logo} alt="" />
+                        <h3 className='text-xl'>Dira Service</h3>
+                    </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
