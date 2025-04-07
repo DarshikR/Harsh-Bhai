@@ -4,7 +4,7 @@ import Hero2 from '../assets/HeroImg.png';
 const HeroSection = () => {
     return (
         <>
-            <div className="hero bg-[#16377e] min-h-[calc(100dvh-80px)]">
+            <div className="hero bg-[#16377e] min-h-[calc(100dvh-80px)] text-white">
                 <div className="hero-content w-full justify-between flex-col md:flex-row-reverse">
                     <div className='flex gap-4 md:gap-4 flex-wrap justify-center w-fit'>
                         <img

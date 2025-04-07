@@ -53,7 +53,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl ps-0 lg:ps-[1rem]">
-                    <img className="h-5 sm:h-8" src={Logo} alt="" />
+                    <img className="h-5 sm:h-8 drop-shadow-[2px_4px_25px_black]" src={Logo} alt="" />
                     <h3 className='text-lg sm:text-xl'>Dira Service</h3>
                 </a>
                 {/* </div> */}
