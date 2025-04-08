@@ -17,9 +17,9 @@ const HeroSection = () => {
                             alt="hero2" />
                     </div>
                     <div>
-                        <h1 className="text-2xl text-center md:text-left sm:text-3xl font-bold">Explore The</h1>
-                        <h1 className="text-4xl text-center md:text-left sm:text-5xl font-bold">Travel & <br className='hidden md:block' /> Adventures</h1>
-                        <p className="py-6 text-center md:text-left">
+                        <h1 className="text-2xl text-center md:text-left sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-bold font-kaushan text-[#f8d448]">Explore The</h1>
+                        <h1 className="text-4xl text-center md:text-left sm:text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl font-bold">Travel & <br className='hidden md:block' /> Adventures</h1>
+                        <p className="py-6 text-center md:text-left xl:text-2xl">
                             Find awesome hotel, tour, car and activities in India
                         </p>
                     </div>

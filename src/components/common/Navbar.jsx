@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar bg-base-300 shadow-sm hidden lg:flex text-sm">
+            <div className="bg-base-300 shadow-sm hidden lg:flex text-sm">
                 <div className="navbar-start">
                     <a className="px-3" href="tel:1234567890">1234567890</a>
                     <vr class="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
@@ -23,7 +23,7 @@ const Navbar = () => {
                         <li className="">
                             <details>
                                 <summary>IND</summary>
-                                <ul className="p-2">
+                                <ul className="p-2 z-[100]">
                                     <li><a>EUR</a></li>
                                     <li><a>IND</a></li>
                                     <li><a>USA</a></li>
