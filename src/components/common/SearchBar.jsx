@@ -7,7 +7,7 @@ import { LuSend } from 'react-icons/lu';
 const SearchBar = () => {
     return (
         <>
-            <div className='w-full sm:w-2/3 md:w-auto mx-auto'>
+            <div className='w-full sm:w-2/3 md:w-auto mx-auto mb-5'>
                 <div className="flex flex-wrap md:flex-row items-end justify-center gap-4 p-4 w-full md:w-fit bg-white rounded-lg shadow-md">
                     <fieldset className="fieldset w-full md:w-auto">
                         <legend className="fieldset-legend font-kaushan text-black">What is your name?</legend>
