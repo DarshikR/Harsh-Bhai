@@ -4,6 +4,7 @@ import CategoryBrowsing from '../sections/Category';
 import WhyChooseUs from '../sections/WhyChooseUs';
 import TopDestinations from '../sections/TopDestinations';
 import FeaturedToursSlider from '../sections/FeaturedToursSlider';
+import WeAreBest from '../sections/WeAreBest';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <WhyChooseUs />
             <TopDestinations />
             <FeaturedToursSlider />
+            <WeAreBest />
         </>
     )
 }

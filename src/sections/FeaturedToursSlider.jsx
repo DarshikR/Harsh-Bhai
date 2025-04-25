@@ -77,28 +77,28 @@ const FeaturedToursSlider = () => {
                                 <img
                                     src={tour.image}
                                     alt={tour.title}
-                                    className="h-48 w-full object-cover"
+                                    className="h-55 w-full object-cover"
                                 />
                                 <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
-                                    <FaHeart className="text-gray-500 hover:text-red-500" />
+                                    <FaHeart className="opacity-60 hover:text-red-500" />
                                 </button>
                                 <div className="p-4 space-y-1">
-                                    <p className="text-sm text-gray-500">{tour.country}</p>
-                                    <h3 className="font-semibold">{tour.title}</h3>
+                                    <p className="text-sm opacity-60">{tour.country}</p>
+                                    <h3 className="font-bold">{tour.title}</h3>
                                     <div className="flex items-center gap-2 text-sm mt-2">
-                                        <span className="flex items-center text-yellow-500">
+                                        <span className="flex items-center text-sm bg-yellow-500 p-1 px-2 rounded-md">
                                             <FaStar className="mr-1" />
                                             {tour.rating}
                                         </span>
-                                        <span className="text-gray-500">{tour.reviews} reviews</span>
-                                        <span className="flex items-center text-gray-500 ml-auto">
+                                        <span className="opacity-60">{tour.reviews} reviews</span>
+                                        <span className="flex items-center opacity-60 ml-auto">
                                             <FaRegClock className="ml-2 mr-1" />
                                             {tour.days}
                                         </span>
                                     </div>
                                     <hr className='my-2' />
                                     <div className="flex justify-between items-center">
-                                        <div className="text-sm text-gray-500">Starting From</div>
+                                        <div className="text-sm opacity-60">Starting From</div>
                                         <div className="font-bold text-lg text-right font-kaushan">{tour.price}</div>
                                     </div>
                                 </div>

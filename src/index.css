@@ -21,6 +21,12 @@
   }
 }
 
+@layer components {
+  .beforeelement {
+    @apply z-[1] relative before:absolute before:z-[-1] before:rounded-full before:content-[''] before:size-10 before:bg-[#f7d347]
+  }
+}
+
 /* Custom font utility */
 @layer utilities {
   .font-kaushan {
