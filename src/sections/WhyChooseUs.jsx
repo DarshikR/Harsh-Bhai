@@ -4,10 +4,10 @@ import Trip from '../assets/WhyChooseUs.png';
 const WhyChooseUs = () => {
     return (
         <>
-            <div className="hero bg-[#f7f8fa] min-h-[calc(100dvh-80px)] text-black">
-                <div className="w-full flex flex-col">
-                    <div className='hero-content w-full justify-evenly flex-col md:flex-row mx-auto'>
-                        <div className='flex flex-col justify-center w-fit bg-[#16377e]'>
+            <div className="py-12 bg-[#f7f8fa] text-black">
+                <div className="container mx-auto flex flex-col">
+                    <div className='flex justify-evenly flex-col md:flex-row md:gap-10'>
+                        <div className='flex flex-col justify-center mx-auto md:mx-0 w-fit bg-[#16377e]'>
                             <div className='bg-[#f8d448] ml-12'>
                                 <img
                                     src={Trip}

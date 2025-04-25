@@ -2,6 +2,8 @@ import React from 'react'
 import HeroSection from '../sections/HeroSection';
 import CategoryBrowsing from '../sections/Category';
 import WhyChooseUs from '../sections/WhyChooseUs';
+import TopDestinations from '../sections/TopDestinations';
+import FeaturedToursSlider from '../sections/FeaturedToursSlider';
 
 const Home = () => {
     return (
@@ -9,6 +11,8 @@ const Home = () => {
             <HeroSection />
             <CategoryBrowsing />
             <WhyChooseUs />
+            <TopDestinations />
+            <FeaturedToursSlider />
         </>
     )
 }

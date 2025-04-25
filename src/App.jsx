@@ -2,6 +2,9 @@ import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
 import AppLayout from "./components/layout/AppLayout";
 import HomePage from "./pages/Home";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
 
   const router = createBrowserRouter([
