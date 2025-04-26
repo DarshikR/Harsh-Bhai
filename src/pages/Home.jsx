@@ -5,6 +5,7 @@ import WhyChooseUs from '../sections/WhyChooseUs';
 import TopDestinations from '../sections/TopDestinations';
 import FeaturedToursSlider from '../sections/FeaturedToursSlider';
 import WeAreBest from '../sections/WeAreBest';
+import Testimonial from '../sections/Testimonial';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <TopDestinations />
             <FeaturedToursSlider />
             <WeAreBest />
+            <Testimonial />
         </>
     )
 }

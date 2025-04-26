@@ -33,3 +33,9 @@
     font-family: 'Kaushan Script', cursive;
   }
 }
+
+.slick-dots li.slick-active div {
+  background-color: #16377e;
+  /* Tailwind yellow-400 */
+  transform: scale(1.1);
+}
