@@ -5,9 +5,9 @@ import SearchBar from '../components/common/SearchBar';
 const HeroSection = () => {
     return (
         <>
-            <div className="hero bg-[#16377e] min-h-[calc(100dvh-80px)] text-white">
+            <div className="hero bg-[#16377e] min-h-[calc(100dvh-80px)] text-white px-4">
                 <div className="w-full flex flex-col">
-                    <div className='hero-content w-full justify-between flex-col md:flex-row-reverse mx-auto'>
+                    <div className='hero-content px-0 w-full justify-between flex-col md:flex-row-reverse mx-auto'>
                         <div className='flex gap-4 md:gap-4 flex-wrap justify-center w-fit'>
                             <img
                                 src={Hero1}

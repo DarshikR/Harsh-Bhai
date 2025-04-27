@@ -27,7 +27,7 @@ const Testimonial = () => {
             <div className="max-w-6xl mx-auto text-center px-6 relative z-[1]">
                 {/* Title Section */}
                 <p className="text-[#16377e] font-kaushan text-lg sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl mb-2">Testimonial</p>
-                <h2 className="text-2xl sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold mb-6">What our customer <br className='hidden md:block' /> says about us</h2>
+                <h2 className="text-black text-2xl sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold mb-6">What our customer <br className='hidden md:block' /> says about us</h2>
 
                 {/* Quote */}
                 <FaQuoteRight className="text-yellow-400 text-4xl mx-auto mb-4" />

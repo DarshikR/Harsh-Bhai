@@ -14,8 +14,8 @@ const CategoryBrowsing = () => {
     ];
 
     return (
-        <section className="py-12 bg-[#f7f8fa]">
-            <div className="container mx-auto text-center">
+        <section className="py-12 bg-[#f7f8fa] px-4">
+            <div className="max-w-6xl mx-auto text-center">
                 <h1 className="text-lg text-center sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-bold font-kaushan text-[#16377e]">Browse By Category</h1>
                 <h1 className="text-2xl text-center sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black pb-10">Pick A Tour Type</h1>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
