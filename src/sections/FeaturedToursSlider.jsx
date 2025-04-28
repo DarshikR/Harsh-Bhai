@@ -62,6 +62,15 @@ const FeaturedToursSlider = () => {
                 settings: { slidesToShow: 1 },
             },
         ],
+        // 👇 CUSTOM DOTS HERE
+        appendDots: dots => (
+            <div className="mt-6">
+                <ul className="flex justify-center gap-2">{dots}</ul>
+            </div>
+        ),
+        customPaging: i => (
+            <div className="tour size-1.5 bg-gray-300 rounded-full hover:bg-[#f8d44869] transition"></div>
+        ),
     };
 
     return (
@@ -86,7 +95,7 @@ const FeaturedToursSlider = () => {
                                     <p className="text-sm opacity-60">{tour.country}</p>
                                     <h3 className="font-bold">{tour.title}</h3>
                                     <div className="flex items-center gap-2 text-sm mt-2">
-                                        <span className="flex items-center text-sm bg-yellow-500 p-1 px-2 rounded-md">
+                                        <span className="flex items-center text-sm bg-[#f8d448] p-1 px-2 rounded-md">
                                             <FaStar className="mr-1" />
                                             {tour.rating}
                                         </span>

@@ -1,11 +1,12 @@
 import React from 'react';
 import { MdOutlinePlayCircle } from 'react-icons/md';
+import Ropeway from '../assets/ropeway.jpg';
 
 const ReadyToTravel = () => {
     return (
-        <section className="relative bg-cover bg-center bg-no-repeat" style={{
-            backgroundImage: "url('https://your-background-image-url.jpg')"
-        }}>
+        <section className="relative bg-cover bg-center bg-no-repeat backdrop-grayscale-25"
+            style={{ backgroundImage: `url(${Ropeway})` }}
+        >
             <div className="bg-black/60 w-full h-full absolute top-0 left-0"></div> {/* Dark overlay */}
 
             <div

@@ -51,6 +51,15 @@ const TopDestinations = () => {
                 },
             },
         ],
+        // 👇 CUSTOM DOTS HERE
+        appendDots: dots => (
+            <div className="mt-6">
+                <ul className="flex justify-center gap-2">{dots}</ul>
+            </div>
+        ),
+        customPaging: i => (
+            <div className="destination size-1.5 bg-gray-300 rounded-full hover:bg-[#fe515769] transition"></div>
+        ),
     };
 
     return (

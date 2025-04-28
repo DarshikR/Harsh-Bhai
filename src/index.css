@@ -34,8 +34,17 @@
   }
 }
 
-.slick-dots li.slick-active div {
+.slick-dots li.slick-active .testimonial {
   background-color: #16377e;
-  /* Tailwind yellow-400 */
+  transform: scale(1.1);
+}
+
+.slick-dots li.slick-active .destination {
+  background-color: #fe5157;
+  transform: scale(1.1);
+}
+
+.slick-dots li.slick-active .tour {
+  background-color: #f8d448;
   transform: scale(1.1);
 }

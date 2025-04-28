@@ -19,7 +19,7 @@ const Testimonial = () => {
             </div>
         ),
         customPaging: i => (
-            <div className="size-1.5 bg-gray-300 rounded-full hover:bg-blue-700 transition"></div>
+            <div className="testimonial size-1.5 bg-gray-300 rounded-full hover:bg-blue-700 transition"></div>
         ),
     };
     return (
