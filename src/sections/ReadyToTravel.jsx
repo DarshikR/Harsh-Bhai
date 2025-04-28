@@ -14,9 +14,9 @@ const ReadyToTravel = () => {
 
                 {/* Left Side Content */}
                 <div className="text-white max-w-xl space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6">
-                    <button className="text-yellow-400 text-6xl rounded-full">
-                        <MdOutlinePlayCircle />
-                    </button>
+                    {/* <button className="text-yellow-400 text-6xl rounded-full"> */}
+                    <MdOutlinePlayCircle className='text-yellow-400 text-6xl' />
+                    {/* </button> */}
                     <h3 className="text-yellow-400 font-kaushan text-lg sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl">Are you ready to travel?</h3>
                     <h2 className="text-2xl sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-snug">
                         Tevily is a World Leading <br className='hidden md:block' /> Online Tour Booking <br className='hidden md:block' /> Platform

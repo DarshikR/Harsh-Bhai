@@ -7,29 +7,26 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="bg-base-300 shadow-sm hidden lg:flex text-sm">
+            <div className="bg-base-300 shadow-sm hidden lg:flex text-sm h-[40px]">
                 <div className="navbar-start">
                     <a className="px-3" href="tel:1234567890">1234567890</a>
-                    <vr class="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
+                    <vr className="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
                     <a className="px-3" href="mailto:demo@gmail.com">demo@gmail.com</a>
                 </div>
                 <div className="navbar-end">
-                    <ul className="menu menu-horizontal px-1 items-center">
+                    <ul className="menu menu-horizontal p-0 items-center">
                         <li><a><FaTwitter /></a></li>
                         <li><a><FaLinkedinIn /></a></li>
                         <li><a><FaGoogle /></a></li>
                         <li><a><FaPinterestP /></a></li>
-                        <vr class="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
+                        <vr className="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
                         <li className="">
-                            <details>
-                                <summary>IND</summary>
-                                <ul className="p-2 z-[100]">
-                                    <li><a>EUR</a></li>
-                                    <li><a>IND</a></li>
-                                    <li><a>USA</a></li>
-                                    <li><a>UAE</a></li>
-                                </ul>
-                            </details>
+                            <select defaultValue="IND" className="select h-7 py-0 outline-none border-0 bg-transparent shadow-none focus:shadow-none focus:outline-none ">
+                                <option className="dark:bg-[#111111] dark:text-white">IND</option>
+                                <option className="dark:bg-[#111111] dark:text-white">EUR</option>
+                                <option className="dark:bg-[#111111] dark:text-white">USA</option>
+                                <option className="dark:bg-[#111111] dark:text-white">UAE</option>
+                            </select>
                         </li>
                     </ul>
                 </div>

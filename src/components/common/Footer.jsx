@@ -28,8 +28,8 @@ const Footer = () => {
                         </a>
                     </div>
                 </aside>
-                <vr class="border-[#222222] border hidden md:block h-full"></vr>
-                <hr class="border-[#222222] border block min-[425px]:hidden w-full"></hr>
+                <vr className="border-[#222222] border hidden md:block h-full"></vr>
+                <hr className="border-[#222222] border block min-[425px]:hidden w-full"></hr>
                 <nav>
                     <h6 className="footer-title opacity-100 font-kaushan">Company</h6>
                     <a className="link link-hover opacity-60">About Us</a>
@@ -51,8 +51,8 @@ const Footer = () => {
                     <a className="link link-hover opacity-60">Melbourne</a>
                     <a className="link link-hover opacity-60">Dubai</a>
                 </nav>
-                <vr class="border-[#222222] border hidden md:block h-full"></vr>
-                <hr class="border-[#222222] border block min-[425px]:hidden w-full"></hr>
+                <vr className="border-[#222222] border hidden md:block h-full"></vr>
+                <hr className="border-[#222222] border block min-[425px]:hidden w-full"></hr>
                 <form>
                     <h6 className="footer-title opacity-100 font-kaushan">Sign up Newsletter</h6>
                     <fieldset className="">

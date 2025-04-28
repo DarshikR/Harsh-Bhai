@@ -88,7 +88,7 @@ const FeaturedToursSlider = () => {
                                     alt={tour.title}
                                     className="h-55 w-full object-cover"
                                 />
-                                <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
+                                <button aria-hidden='true' className="absolute top-3 right-3 bg-white p-2 rounded-full shadow">
                                     <FaHeart className="opacity-60 hover:text-red-500" />
                                 </button>
                                 <div className="p-4 space-y-1">

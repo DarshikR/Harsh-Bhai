@@ -20,11 +20,11 @@ const SearchBar = () => {
                         <legend className="fieldset-legend font-kaushan text-black text-base sm:text-lg font-semibold pt-0 pb-1">Type</legend>
                         <label className="input w-full">
                             <GrFlag />
-                            <select defaultValue="Activity Type" className="select w-full ps-0 border-0 bg-transparent shadow-none focus:outline-none">
-                                <option>Activity Type</option>
-                                <option>City Tour</option>
-                                <option>Beach</option>
-                                <option>Adventure</option>
+                            <select defaultValue="Activity Type" className="select h-7 py-0 outline-none w-full border-0 bg-transparent shadow-none focus:shadow-none focus:outline-none">
+                                <option disabled={true} className="dark:bg-[#111111] dark:text-white">Activity Type</option>
+                                <option className="dark:bg-[#111111] dark:text-white">City Tour</option>
+                                <option className="dark:bg-[#111111] dark:text-white">Beach</option>
+                                <option className="dark:bg-[#111111] dark:text-white">Adventure</option>
                             </select>
                         </label>
                     </fieldset>

@@ -23,7 +23,7 @@ const Testimonial = () => {
         ),
     };
     return (
-        <section className="bg-white py-16 relative overflow-hidden">
+        <section className="bg-white py-16 relative overflow-hidden text-black">
             <div className="max-w-6xl mx-auto text-center px-6 relative z-[1]">
                 {/* Title Section */}
                 <p className="text-[#16377e] font-kaushan text-lg sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl mb-2">Testimonial</p>
@@ -37,19 +37,19 @@ const Testimonial = () => {
                             “The UI designs he crafted are top-notch, and the design system he integrated allows
                             for straightforward fixes and bulk updates throughout almost every area of the app.”
                         </p>
-                        <p className="text-gray-400 text-sm">- By Molie Rosa, Photographer</p>
+                        <p className="opacity-60 text-sm">- By Molie Rosa, Photographer</p>
                     </div>
                     <div>
                         <p className="text-lg font-bold text-gray-700 mb-4 max-w-xl mx-auto">
                             “Amazing service! The team was super responsive and understood our needs perfectly.”
                         </p>
-                        <p className="text-gray-400 text-sm">- By Molie Rosa, Photographer2</p>
+                        <p className="opacity-60 text-sm">- By Molie Rosa, Photographer2</p>
                     </div>
                     <div>
                         <p className="text-lg font-bold text-gray-700 mb-4 max-w-xl mx-auto">
                             “Highly recommend them! Their design sense and execution were top-notch.”
                         </p>
-                        <p className="text-gray-400 text-sm">- By Molie Rosa, Photographer3</p>
+                        <p className="opacity-60 text-sm">- By Molie Rosa, Photographer3</p>
                     </div>
                 </Slider>
 

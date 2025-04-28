@@ -2,6 +2,7 @@ import React from 'react';
 import Update1 from '../assets/update1.png';
 import Photo from '../assets/update1.png'
 import { AiFillInstagram } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const posts = [
     {
@@ -52,10 +53,10 @@ const LatestTravelGuide = () => {
                 <hr className='my-10' />
 
                 <div className="flex flex-row gap-4">
-                    <div className='rotate-[270deg] flex items-center'>
+                    <Link to='' className='rotate-[270deg] flex items-center gap-1'>
                         <AiFillInstagram />
                         @diraservice
-                    </div>
+                    </Link>
                     <div className="flex flex-1 justify-between gap-4 overflow-x-auto">
                         <img src={Photo} alt="insta 1" className="h-26 aspect-square object-cover" />
                         <img src={Photo} alt="insta 2" className="h-26 aspect-square object-cover" />
