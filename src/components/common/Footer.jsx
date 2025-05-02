@@ -13,9 +13,9 @@ const Footer = () => {
                         <h3 className='text-xl'>Dira Service</h3>
                     </div>
                     <p className='font-kaushan opacity-60'>Need any help?</p>
-                    <h5 className='mb-2 leading-snug'><b>Call Us: <span className='text-[#f8d448]'>(888)1234 5678</span></b></h5>
-                    <p className=' opacity-60'>Love Street, muscat, oman</p>
-                    <a className='leading-snug opacity-60' href="mailto:demo@gmail.com">demo@gmail.com</a>
+                    <h5 className='mb-2 leading-snug'><b>Call Us: <a href="tel:7069100023" className='text-[#f8d448]'>70691 00023</a></b></h5>
+                    <p className=' opacity-60'>Yagnik Road, Rajkot.</p>
+                    <a className='leading-snug opacity-60' href="mailto:servicesdira@gmail.com">servicesdira@gmail.com</a>
                     <div className="grid grid-flow-col gap-4 text-xl mt-5">
                         <a>
                             <FaFacebookSquare />
