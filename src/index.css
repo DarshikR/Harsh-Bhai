@@ -32,6 +32,12 @@
   .font-kaushan {
     font-family: 'Kaushan Script', cursive;
   }
+
+  .verticale-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
 }
 
 .slick-dots li.slick-active .testimonial {

@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const destinations = [
     {
@@ -68,7 +69,7 @@ const TopDestinations = () => {
                         <h2 className="text-2xl sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black">Top Destinations</h2>
                     </div>
                     <a className="text-blue-900 font-semibold hover:underline flex items-center gap-1">
-                        See All →
+                        See All <FaArrowRightLong />
                     </a>
                 </div>
                 <Slider {...settings}>

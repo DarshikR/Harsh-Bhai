@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                         </div>
                         <div className='flex flex-col justify-center items-center md:items-start'>
                             <h1 className="text-lg text-center md:text-left md:text-xl xl:text-2xl 2xl:text-3xl font-bold font-kaushan text-[#16377e]">Why Choose Us</h1>
-                            <h1 className="text-lg text-center md:text-left sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-bold">Plan Your Trip <br className='hidden md:block' /> with Trisog</h1>
+                            <h1 className="text-lg text-center md:text-left sm:text-xl md:text-xl xl:text-2xl 2xl:text-3xl font-bold">Plan Your Trip <br className='hidden md:block' /> with Dira Service</h1>
                             <p className="py-6 text-center md:text-left opacity-60">
                                 Holisticly optimize proactive strategic theme <br />
                                 areas rether than effective manufectured <br />

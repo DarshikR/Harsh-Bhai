@@ -53,16 +53,20 @@ const LatestTravelGuide = () => {
                 <hr className='my-10' />
 
                 <div className="flex flex-row gap-4">
-                    <Link to='' className='rotate-[270deg] flex items-center gap-1'>
+                    <Link
+                        to='https://www.instagram.com/servicesdira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
+                        className='verticale-text flex items-center gap-1'
+                        target='_blank'
+                    >
                         <AiFillInstagram />
                         @diraservice
                     </Link>
                     <div className="flex flex-1 justify-between gap-4 overflow-x-auto">
-                        <img src={Photo} alt="insta 1" className="h-26 aspect-square object-cover" />
-                        <img src={Photo} alt="insta 2" className="h-26 aspect-square object-cover" />
-                        <img src={Photo} alt="insta 3" className="h-26 aspect-square object-cover" />
-                        <img src={Photo} alt="insta 4" className="h-26 aspect-square object-cover" />
-                        <img src={Photo} alt="insta 5" className="h-26 aspect-square object-cover" />
+                        <img src={Photo} alt="insta 1" className="h-36 aspect-square object-cover" />
+                        <img src={Photo} alt="insta 2" className="h-36 aspect-square object-cover" />
+                        <img src={Photo} alt="insta 3" className="h-36 aspect-square object-cover" />
+                        <img src={Photo} alt="insta 4" className="h-36 aspect-square object-cover" />
+                        <img src={Photo} alt="insta 5" className="h-36 aspect-square object-cover" />
                     </div>
                 </div>
 

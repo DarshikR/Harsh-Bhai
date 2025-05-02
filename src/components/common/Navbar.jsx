@@ -1,7 +1,8 @@
 import menuConfigs from "../../configs/menu.config";
 import { FaGoogle, FaLinkedinIn, FaPinterestP, FaSearch, FaTwitter, FaUser } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../public/logo.svg";
+import Logo1 from "../../assets/logo1.jpg";
 
 const Navbar = () => {
 
@@ -9,23 +10,23 @@ const Navbar = () => {
         <>
             <div className="bg-base-300 shadow-sm hidden lg:flex text-sm h-[40px]">
                 <div className="navbar-start">
-                    <a className="px-3" href="tel:1234567890">1234567890</a>
+                    <a className="px-3" href="tel:7069100023">7069100023</a>
                     <vr className="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
-                    <a className="px-3" href="mailto:demo@gmail.com">demo@gmail.com</a>
+                    <a className="px-3" href="mailto:servicesdira@gmail.com">servicesdira@gmail.com</a>
                 </div>
                 <div className="navbar-end">
                     <ul className="menu menu-horizontal p-0 items-center">
-                        <li><a><FaTwitter /></a></li>
-                        <li><a><FaLinkedinIn /></a></li>
-                        <li><a><FaGoogle /></a></li>
-                        <li><a><FaPinterestP /></a></li>
+                        {/* <li><a><FaTwitter /></a></li> */}
+                        {/* <li><a><FaLinkedinIn /></a></li> */}
+                        <li><Link to='https://g.co/kgs/MhE9SM5' target="_blank"><FaGoogle /></Link></li>
+                        {/* <li><a><FaPinterestP /></a></li> */}
                         <vr className="border-[#6f748a] border hidden md:block h-5 mx-2.5"></vr>
                         <li className="">
                             <select defaultValue="IND" className="select h-7 py-0 outline-none border-0 bg-transparent shadow-none focus:shadow-none focus:outline-none ">
                                 <option className="dark:bg-[#111111] dark:text-white">IND</option>
-                                <option className="dark:bg-[#111111] dark:text-white">EUR</option>
-                                <option className="dark:bg-[#111111] dark:text-white">USA</option>
-                                <option className="dark:bg-[#111111] dark:text-white">UAE</option>
+                                <option className="dark:bg-[#111111] dark:text-white" disabled>EUR</option>
+                                <option className="dark:bg-[#111111] dark:text-white" disabled>USA</option>
+                                <option className="dark:bg-[#111111] dark:text-white" disabled>UAE</option>
                             </select>
                         </li>
                     </ul>
@@ -49,9 +50,10 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl ps-0 lg:ps-[1rem]">
-                    <img className="h-5 sm:h-8 drop-shadow-[2px_4px_25px_black]" src={Logo} alt="" />
-                    <h3 className='text-lg sm:text-xl'>Dira Service</h3>
+                <a className="btn btn-ghost text-xl px-0 dark:bg-gray-50 overflow-hidden">
+                    <img src={Logo1} className="h-20 mix-blend-multiply" alt="" />
+                    {/* <img className="h-5 sm:h-8 drop-shadow-[2px_4px_25px_black]" src={Logo} alt="" />
+                    <h3 className='text-lg sm:text-xl'>Dira Service</h3> */}
                 </a>
                 {/* </div> */}
                 <div className="navbar-center hidden lg:flex">
@@ -63,14 +65,14 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="ml-auto">
+                {/* <div className="ml-auto">
                     <ul className="menu menu-horizontal items-center">
                         <li><a><FaSearch /></a></li>
                         <li className="sm:hidden"><a><FaUser /></a></li>
                         <li className="hidden sm:flex sm:flex-row items-center pointer-events-none"><a className="pointer-events-auto">Login</a>/</li>
                         <li className="hidden sm:block"><a>SignUp</a></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </>
     )
