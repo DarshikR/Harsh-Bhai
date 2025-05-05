@@ -1,9 +1,14 @@
-import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./components/layout/AppLayout";
 import HomePage from "./pages/Home";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Tours from "./pages/Tours";
+import Destination from "./pages/Destination";
+import Blog from "./pages/Blog";
 
 function App() {
 
@@ -18,8 +23,24 @@ function App() {
         },
         {
           path: '/about',
-          element: <div>About</div>
-        }
+          element: <About />
+        },
+        {
+          path: '/tours',
+          element: <Tours />
+        },
+        {
+          path: '/destination',
+          element: <Destination />
+        },
+        {
+          path: '/blog',
+          element: <Blog />
+        },
+        {
+          path: '/contact',
+          element: <Contact />
+        },
       ]
     }
   ]);

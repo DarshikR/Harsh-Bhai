@@ -19,10 +19,10 @@ const menus = [
         name: 'Blog',
         path: '/blog'
     },
-    {
-        name: 'Pages',
-        path: '/pages'
-    },
+    // {
+    //     name: 'Pages',
+    //     path: '/pages'
+    // },
     {
         name: 'Contact',
         path: '/contact'
