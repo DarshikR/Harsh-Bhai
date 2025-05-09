@@ -21,6 +21,7 @@ const menus = [
     },
     // {
     //     name: 'Pages',
+    
     //     path: '/pages'
     // },
     {
