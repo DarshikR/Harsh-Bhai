@@ -9,7 +9,7 @@ const PageHeader = ({ title, breadcrumb, bgImage }) => {
         >
             <div className="absolute inset-0 bg-black/50"></div>
 
-            <div className="relative text-center text-white z-10">
+            <div className="relative text-center text-white z-1">
                 <h1 className="text-4xl font-bold mb-2">{title}</h1>
                 <p className="text-lg">
                     <Link to='/' className="text-gray-300">Home</Link> / <Link to={`/` + breadcrumb} className="text-red-400 capitalize">{breadcrumb}</Link>
